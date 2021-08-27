@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Fill Button</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color:blue;
+        }
+        #bt{
+            background-color: transparent;
+            border: 2px;
+            border-radius: 60px;
+            border-color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 70px;
+            color: white;
+            font-weight: 600;
+            width: 380px;
+            height: 110px;
+            transition: 250ms ease-out;
+            margin-top: 200px;
+        }
+        #bt:hover{
+            background-color: white;
+            color: blue;
+            transition: 250ms ease-in;
+            cursor: pointer;
+            box-shadow: 1px 1px 10px black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <center>
+        <button id="bt">HOVER</button>
+        </center>
+    </div>
+</body>
+</html>
